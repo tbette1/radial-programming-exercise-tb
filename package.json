@@ -1,0 +1,27 @@
+{
+  "name": "radial-programming-interview",
+  "version": "1.0.0",
+  "description": "Radial Analytics programming exercise.",
+  "main": "index.ts",
+  "dependencies": {
+    "convert-csv-to-json": "0.0.13",
+    "csvtojson": "^1.1.9",
+    "eslint": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/csvtojson": "^1.1.5",
+    "concurrency": "^0.1.4",
+    "concurrently": "^3.5.1",
+    "lite-server": "^2.3.0",
+    "typescript": "^2.7.2"
+  },
+  "scripts": {
+    "test": "we are live!",
+    "tsc": "tsc",
+    "tsc: w": "tsc -w",
+    "lite": "lite-server",
+    "start": "concurrently 'npm run tsc:w' 'npm run lite'"
+  },
+  "author": "Tory Bettencourt",
+  "license": "ISC"
+}
